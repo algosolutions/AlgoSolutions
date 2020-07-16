@@ -80,6 +80,5 @@ def AlpacaHistoric(symbol, startDate, endDate, timeFrame='1Min'):
 
 
 if __name__ == '__main__':
-    print('TESTING')
     #AlpacaHistoric('TSLA', '2020-07-14', '2020-07-15')
     HistoricPrices1Min('TSLA', '2020-07-15', '2020-07-15')
